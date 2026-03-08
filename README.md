@@ -1,6 +1,6 @@
 # Portfolio Index
 
-Employer-facing index of my public Python projects.
+Public index of my Python projects.
 Focus areas: deterministic logic, data quality, desktop apps, and testable architecture.
 
 ## Professional Profile
@@ -39,3 +39,4 @@ Focus areas: deterministic logic, data quality, desktop apps, and testable archi
 ## 3D Portfolio (Blender)
 - Public site: https://teogame3d-site.pages.dev/
 - Focus: stylized + realistic renders, animated previews, and branded presentation.
+
