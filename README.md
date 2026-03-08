@@ -1,20 +1,31 @@
 # Portfolio Index
 
-A quick index of my public projects.
+Employer-facing index of my public Python projects.
+Focus areas: deterministic logic, data quality, desktop apps, and testable architecture.
 
-## Highlights
+## Quick Review Path (15 Minutes)
+1. [AI Agent Text RO](https://github.com/teogame3d-alt/ai-agent-text-ro) - deterministic NLP pipeline, SQLite memory, PyQt6 UI.
+2. [Interactive Data Viz](https://github.com/teogame3d-alt/interactive-data-viz) - ETL-style cleaning with validation and interactive analytics.
+3. [PyQt6 Magic Shop](https://github.com/teogame3d-alt/pyqt6-magic-shop) - desktop CRUD app with layered architecture and tests.
+4. [Library_Project.py](https://github.com/teogame3d-alt/Library_Project.py) - concise OOP and persistence fundamentals demo.
 
-### AI Agent Text RO
-Deterministic RO/EN text agent with TF-IDF intent matching, SQLite memory, and a PyQt6 UI.
+## Project Matrix
 
-Repo: https://github.com/teogame3d-alt/ai-agent-text-ro
+| Project | Role of Project | Main Skills Demonstrated | Quality Signals |
+| --- | --- | --- | --- |
+| [AI Agent Text RO](https://github.com/teogame3d-alt/ai-agent-text-ro) | Deterministic text automation | NLP pipeline design, config-driven behavior, SQLite, PyQt6 | tests, CI, architecture docs |
+| [Interactive Data Viz](https://github.com/teogame3d-alt/interactive-data-viz) | Data cleaning + visual analytics | pandas ETL, data contracts, metrics, visual explainability | tests, CI, modular structure |
+| [PyQt6 Magic Shop](https://github.com/teogame3d-alt/pyqt6-magic-shop) | Offline desktop business app | PyQt6, repository/service layers, SQLite | tests, CI, separation of concerns |
+| [Library_Project.py](https://github.com/teogame3d-alt/Library_Project.py) | Compact OOP baseline | domain modeling, CLI flows, JSON persistence | tests, clear scope |
 
-### Interactive Data Viz
-ETL-style cleaning pipeline + interactive charts + algorithm visualizers (sorting + BST).
+## Technical Stack Snapshot
+- Python
+- PyQt6
+- SQLite
+- pandas / NumPy
+- matplotlib / mplcursors
+- pytest + GitHub Actions
 
-Repo: https://github.com/teogame3d-alt/interactive-data-viz
-
-### PyQt6 Magic Shop
-Desktop inventory app with SQLite persistence, service layer rules, and unit tests.
-
-Repo: https://github.com/teogame3d-alt/pyqt6-magic-shop
+## Notes
+- Repositories are intentionally scoped for clarity and fast technical review.
+- Each project README includes problem, solution, setup, and test commands.
