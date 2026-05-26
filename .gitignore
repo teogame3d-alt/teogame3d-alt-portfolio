@@ -1,0 +1,45 @@
+# Python / build artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Privacy guardrails / local-only files
+.env
+.env.*
+!.env.example
+*.local
+*.secret
+*.secrets
+secrets/
+private/
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.csr
+*.log
+*.tmp
+*.bak
+*.db
+*.sqlite
+*.sqlite3
+local_artifacts/
+private_artifacts/
