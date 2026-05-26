@@ -6,7 +6,7 @@ Focus areas: deterministic logic, data quality, desktop apps, and testable archi
 ## Professional Profile
 - Technical QA Engineer (Junior+) with hands-on Python automation mindset.
 - Building deterministic, testable applications instead of black-box demos.
-- Comfortable with data validation, API-like workflows, desktop tooling, and CI.
+- Comfortable with data validation, API testing workflows, desktop tooling, and CI.
 - Secondary track: Blender 3D portfolio for visual design execution and presentation quality.
 
 ## Quick Review Path (15 Minutes)
@@ -60,6 +60,13 @@ CLI/API projects use honest evidence boards that summarize architecture, tests, 
 | [PyQt6 Magic Shop](https://github.com/teogame3d-alt/pyqt6-magic-shop) | Offline desktop business app | PyQt6, repository/service layers, SQLite | tests, CI, separation of concerns |
 | [Digital Library](https://github.com/teogame3d-alt/digital-library) | Compact OOP baseline | domain modeling, CLI flows, JSON persistence | tests, clear scope |
 
+## Portfolio Boundaries
+
+- Each public repository has one primary role; I avoid publishing duplicate demos that prove the same skill twice.
+- Game/visual QA work is treated as a future track only when it can be shown safely: dataset validation, model evaluation, training configuration, and reports.
+- Public computer-vision demos should not include live input automation, private browser profiles, local paths, logs, model checkpoints, or machine-specific artifacts.
+- Brand direction: TeoGame3D, with a practical QA/dev tooling focus rather than scattered experiments.
+
 ## Technical Stack Snapshot
 - Python
 - PyQt6
@@ -81,9 +88,9 @@ CLI/API projects use honest evidence boards that summarize architecture, tests, 
 - Each project README includes problem, solution, setup, and test commands.
 
 ## Build vs Polish Transparency
-- Core features in each repo were implemented first (logic, persistence, tests, CI).
-- Recent updates improved public documentation, screenshots, and release notes to make technical evaluation faster.
-- Commit history and releases are intentionally kept public to show iterative engineering progress.
+- Core features in each repo are supported by readable code, tests, documentation, and screenshots where useful.
+- Public repositories are kept focused so a recruiter can understand the project role quickly.
+- New public projects are added only when they demonstrate a distinct skill that the current portfolio does not already show.
 
 ## 3D Portfolio (Blender)
 - Public site: https://teogame3d-site.pages.dev/
