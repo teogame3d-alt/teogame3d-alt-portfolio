@@ -89,7 +89,7 @@ CLI/API projects use honest evidence boards that summarize architecture, tests, 
 
 ## Build vs Polish Transparency
 - Core features in each repo are supported by readable code, tests, documentation, and screenshots where useful.
-- Public repositories are kept focused so a recruiter can understand the project role quickly.
+- Public repositories are kept focused so each project role is easy to understand quickly.
 - New public projects are added only when they demonstrate a distinct skill that the current portfolio does not already show.
 
 ## 3D Portfolio (Blender)
