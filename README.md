@@ -17,6 +17,20 @@ Focus areas: deterministic logic, data quality, desktop apps, and testable archi
 5. [PyQt6 Magic Shop](https://github.com/teogame3d-alt/pyqt6-magic-shop) - desktop CRUD app with layered architecture and tests.
 6. [Digital Library](https://github.com/teogame3d-alt/digital-library) - concise OOP and persistence fundamentals demo.
 
+## What To Verify
+- Run tests where available with `python -m pytest`.
+- Check each README for setup, demo flow, current limits, and engineering notes.
+- Inspect screenshots as proof of running UI/data flows, not as replacement for code review.
+- Review docs for design choices: why a deterministic rule was used, what is covered by tests, and what remains future work.
+
+## Project Status Labels
+- Working repository: source code, setup steps, tests, CI or documented validation path.
+- Local prototype: experimental build used to validate one technical idea.
+- Frontend / visual showcase: presentation layer, UI study or Blender/brand work, not a finished product claim.
+- Learning baseline: compact project kept because it proves fundamentals clearly.
+
+This portfolio should be read as a focused technical learning system, not as a list of finished commercial products.
+
 ## Visual Review
 
 Screenshots are included to make the technical review faster. UI projects show real interfaces;
@@ -59,6 +73,13 @@ CLI/API projects use honest evidence boards that summarize architecture, tests, 
 | [Interactive Data Viz](https://github.com/teogame3d-alt/interactive-data-viz) | Data cleaning + visual analytics | pandas ETL, data contracts, metrics, visual explainability | tests, CI, modular structure |
 | [PyQt6 Magic Shop](https://github.com/teogame3d-alt/pyqt6-magic-shop) | Offline desktop business app | PyQt6, repository/service layers, SQLite | tests, CI, separation of concerns |
 | [Digital Library](https://github.com/teogame3d-alt/digital-library) | Compact OOP baseline | domain modeling, CLI flows, JSON persistence | tests, clear scope |
+
+## Build Notes and Tradeoffs
+- Python Live QA Studio is kept deterministic first so runtime feedback can be tested before adding heavier editor features.
+- QA Automation API Suite uses a public demo API; that keeps setup simple, but the repository documents contract assumptions and negative-path behavior.
+- AI Agent Text RO avoids hidden external services in the core path so learning, memory, and policy behavior remain inspectable.
+- UI projects separate business logic from presentation so tests can verify the important behavior without depending on screenshots.
+- The portfolio is intentionally focused: new repositories should add a distinct skill, not duplicate an existing proof.
 
 ## Portfolio Boundaries
 
