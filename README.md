@@ -3,6 +3,9 @@
 Public index of my Python projects.
 Focus areas: deterministic logic, data quality, desktop apps, and testable architecture.
 
+**Latest update:** the portfolio now includes the Agentic QA Triage application and a clearer
+verification path for every technical repository. See [the changelog](CHANGELOG.md).
+
 ## Professional Profile
 - Technical QA Engineer (Junior+) with hands-on Python automation mindset.
 - Building deterministic, testable applications instead of black-box demos.
@@ -29,7 +32,8 @@ Focus areas: deterministic logic, data quality, desktop apps, and testable archi
 - Frontend / visual showcase: presentation layer, UI study or Blender/brand work, not a finished product claim.
 - Learning baseline: compact project kept because it proves fundamentals clearly.
 
-This portfolio should be read as a focused technical learning system, not as a list of finished commercial products.
+This portfolio presents focused working projects with explicit scope, verification paths, and honest
+limitations; it does not claim that every repository is a finished commercial product.
 
 ## Visual Review
 
