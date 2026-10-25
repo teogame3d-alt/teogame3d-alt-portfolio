@@ -5,3 +5,4 @@
 - Refined the project index so a technical reviewer can reach the strongest repositories quickly.
 - Added the Agentic QA Triage project to the portfolio map.
 - Clarified status labels, verification commands, and the boundary between technical and visual work.
+- Promoted Python, QA automation, agentic systems, and API work to the primary review path.

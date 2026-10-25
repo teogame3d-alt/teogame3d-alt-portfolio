@@ -1,24 +1,25 @@
 # Portfolio Index
 
-Public index of my Python projects.
-Focus areas: deterministic logic, data quality, desktop apps, and testable architecture.
+Public index of my technical development projects.
+Focus areas: Python, QA automation, agentic systems, APIs, data quality, desktop apps, and testable architecture.
 
 **Latest update:** the portfolio now includes the Agentic QA Triage application and a clearer
 verification path for every technical repository. See [the changelog](CHANGELOG.md).
 
 ## Professional Profile
-- Technical QA Engineer (Junior+) with hands-on Python automation mindset.
+- Python / QA Automation developer with hands-on testing and automation mindset.
 - Building deterministic, testable applications instead of black-box demos.
-- Comfortable with data validation, API testing workflows, desktop tooling, and CI.
+- Comfortable with data validation, API testing workflows, agentic application boundaries, desktop tooling, and CI.
 - Secondary track: Blender 3D portfolio for visual design execution and presentation quality.
 
 ## Quick Review Path (15 Minutes)
-1. [Python Live QA Studio](https://github.com/teogame3d-alt/pylive-qa-studio) - live diagnostics, traceback explanation, syntax learning coach, privacy-safe output.
-2. [QA Automation API Suite](https://github.com/teogame3d-alt/qa-automation-api-suite) - dedicated API automation tests with CI.
-3. [AI Agent Text RO](https://github.com/teogame3d-alt/ai-agent-text-ro) - user-trainable RO/EN agent, SQLite memory, PyQt6 UI.
-4. [Interactive Data Viz](https://github.com/teogame3d-alt/interactive-data-viz) - ETL-style cleaning with validation and interactive analytics.
-5. [PyQt6 Magic Shop](https://github.com/teogame3d-alt/pyqt6-magic-shop) - desktop CRUD app with layered architecture and tests.
-6. [Digital Library](https://github.com/teogame3d-alt/digital-library) - concise OOP and persistence fundamentals demo.
+1. [Agentic QA Triage](https://github.com/teogame3d-alt/agentic-qa-triage) - structured agent workflow, approval gates, persistence, usage tracking, and CI.
+2. [Python Live QA Studio](https://github.com/teogame3d-alt/pylive-qa-studio) - live diagnostics, traceback explanation, syntax learning coach, privacy-safe output.
+3. [QA Automation API Suite](https://github.com/teogame3d-alt/qa-automation-api-suite) - dedicated API automation tests with CI.
+4. [AI Agent Text RO](https://github.com/teogame3d-alt/ai-agent-text-ro) - user-trainable RO/EN agent, SQLite memory, PyQt6 UI.
+5. [Interactive Data Viz](https://github.com/teogame3d-alt/interactive-data-viz) - ETL-style cleaning with validation and interactive analytics.
+6. [PyQt6 Magic Shop](https://github.com/teogame3d-alt/pyqt6-magic-shop) - desktop CRUD app with layered architecture and tests.
+7. [Digital Library](https://github.com/teogame3d-alt/digital-library) - concise OOP and persistence fundamentals demo.
 
 ## What To Verify
 - Run tests where available with `python -m pytest`.
@@ -71,6 +72,7 @@ CLI/API projects use honest evidence boards that summarize architecture, tests, 
 
 | Project | Role of Project | Main Skills Demonstrated | Quality Signals |
 | --- | --- | --- | --- |
+| [Agentic QA Triage](https://github.com/teogame3d-alt/agentic-qa-triage) | Agentic workflow and QA operations prototype | structured outputs, approval gates, persistence, usage tracking, provider boundaries | tests, CI, architecture and cost notes |
 | [Python Live QA Studio](https://github.com/teogame3d-alt/pylive-qa-studio) | Developer tool / QA learning assistant | AST diagnostics, traceback explanation, syntax coaching, privacy-safe output | tests, CI, screenshots, security/privacy notes |
 | [QA Automation API Suite](https://github.com/teogame3d-alt/qa-automation-api-suite) | API test automation | pytest, requests, contract checks, CI pipelines | dedicated QA scope |
 | [AI Agent Text RO](https://github.com/teogame3d-alt/ai-agent-text-ro) | User-trainable AI agent concept | learning queue, approved answers, policy rules, SQLite memory | tests, CI, architecture docs |
@@ -80,6 +82,7 @@ CLI/API projects use honest evidence boards that summarize architecture, tests, 
 
 ## Build Notes and Tradeoffs
 - Python Live QA Studio is kept deterministic first so runtime feedback can be tested before adding heavier editor features.
+- Agentic QA Triage keeps the provider boundary explicit so agent behaviour, approvals, persistence, and usage can be inspected independently.
 - QA Automation API Suite uses a public demo API; that keeps setup simple, but the repository documents contract assumptions and negative-path behavior.
 - AI Agent Text RO avoids hidden external services in the core path so learning, memory, and policy behavior remain inspectable.
 - UI projects separate business logic from presentation so tests can verify the important behavior without depending on screenshots.
@@ -90,7 +93,7 @@ CLI/API projects use honest evidence boards that summarize architecture, tests, 
 - Each public repository has one primary role; I avoid publishing duplicate demos that prove the same skill twice.
 - Game/visual QA work is treated as a future track only when it can be shown safely: dataset validation, model evaluation, training configuration, and reports.
 - Public computer-vision demos should not include live input automation, private browser profiles, local paths, logs, model checkpoints, or machine-specific artifacts.
-- Brand direction: TeoGame3D, with a practical QA/dev tooling focus rather than scattered experiments.
+- Brand direction: TeoGame3D, with development as the primary public GitHub track and 3D as a separate visual track.
 
 ## Technical Stack Snapshot
 - Python
